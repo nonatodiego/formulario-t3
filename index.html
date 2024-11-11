@@ -26,7 +26,77 @@
                     <label for="email">Email: </label>
                     <input type="email" name="email" id="email" placeholder="Digite seu email" />
                 </div>
+
+                <div>
+                    <label for="senha">Senha: </label>
+                    <input type="password" name="senha" id="senha" placeholder="Digite sua senha" />
+                </div>    
             </fieldset>
+
+            <fieldset>
+                <label for="estados">Estados:</label>
+                <select name="estados" id="estados">
+                    <option value="ac">AC</option>
+                    <option value="al">AL</option>
+                    <option value="ap">AP</option>
+                    <option value="am">AM</option>
+                    <option value="ba">BA</option>
+                    <option value="ce">CE</option>
+                    <option value="df">DF</option>
+                    <option value="es">ES</option>
+                    <option value="go">GO</option>
+                    <option value="ma">MA</option>
+                    <option value="mt">MT</option>
+                    <option value="ms">MS</option>
+                    <option value="mg">MG</option>
+                    <option value="pa">PA</option>
+                    <option value="pb">PB</option>
+                    <option value="pr">PR</option>
+                    <option value="pe">PE</option>
+                    <option value="pi">PI</option>
+                    <option value="rj">RJ</option>
+                    <option value="rn">RN</option>
+                    <option value="rs">RS</option>
+                    <option value="ro">RO</option>
+                    <option value="rr">RR</option>
+                    <option value="sc">SC</option>
+                    <option value="sp">SP</option>
+                    <option value="se">SE</option>
+                    <option value="to">TO</option>
+                </select>
+
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" name="nascimento" id="nascimento">
+
+                <label for="foto">Selecione uma foto:</label>
+
+                <input type="file" name="foto" id="foto">
+            </fieldset>
+
+            <fieldset>
+                <legend>Você é um robô?</legend>
+                <img src="https://cdn-icons-png.flaticon.com/256/7626/7626850.png" alt="roboto cinza">
+            <div>
+
+                <input type="radio" name="robo" id="sim">
+                <label for="sim">Sim, sou um robô</label>
+                <input type="radio" name="robo" id="nao">
+                <label for="nao">Não sou um robô</label>
+                
+                <input type="radio" name="robo" id="talvez">
+                <label for="talvez">Talvez eu seja um robô</label>
+            </div>
+
+            <input type="checkbox" name="acordo" id="acordo"/>
+            <label for="acordo">Declaro que sou um robô e vim pedir educação no chatGPT</label>
+            </fieldset>
+
+            <input type="submit" value="Enviar">
+            <button type="submit">Enviar</button>
+
+
+
+
         </form>
     </main>
 </body>
